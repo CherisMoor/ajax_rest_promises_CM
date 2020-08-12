@@ -1,0 +1,54 @@
+
+
+
+
+-Response: is text, usually nowadays in JSON
+	-JSON: JavaScript Object Notation
+- Native API, but libraries like jQuery wrap that API to make it easier to use
+
+
+API: Application Programming Interface
+- It defines how applications talk to one another (how they request resources and send resources)
+
+HTTP Verbs
+1. GET - requests data, parameters in querystring
+2. POST - submits data to be processed, parameters in body
+3. PUT - Adds or replaces item at a specific location
+4. DELETE - Deletes an item at a specific location
+
+REST(REST API Principles)
+REST is a pattern for organizing APIs with a few simple rules:
+1. Use HTTP request types as VERBS
+2. Use URLs to represent unique resources (NOUNS)
+
+***Examples:***
+RESTful
+- GET '/items'
+- POST'/items/3
+
+NOT RESTful
+- POST 'items/new'
+- GET '/items/add'
+- DELETE 'items/removeitem/1'
+
+CORS: Cross Origin Resource Sharing
+- by default, AJAX requests are only allowed within the same domain that the browser is on
+- A server has to enable CORS to allow browsers from other domains to make a successful request
+
+Callback Function
+- a function (named or anonymous) that is given as the parameter of another function
+- they aren't executed when they appear in a file, rather they are "called back" upon via another function getting executed
+
+Promises
+- A promise is an object that represents an eventual value
+- Promises allow asynchronous (happening at different times) code to behave sychronously (happening once)
+- built into the latest version of JavaScript (ES6)
+- Parallel execution: perform a bunch of operations and then do something when they've all been completed
+
+Why use Promises over a Callback Function?
+- Promises can be chained together to perform multiple dependent asynchronous (happening at diff times) operations
+- Error handling can be done in order
+
+
+
+

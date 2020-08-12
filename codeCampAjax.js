@@ -10,6 +10,7 @@ document.getElementById('getMessage').onclick= function(){};
 
 
 <!--Exercise 2-->
+
 <script>
   document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('getMessage').onclick = function(){
